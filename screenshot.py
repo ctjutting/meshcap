@@ -18,7 +18,7 @@ driver = webdriver.Chrome(service=Service(ChromeDriverManager().install()), opti
 driver.set_window_size(2560, 1440)
 
 # Open the webpage
-driver.get("https://meshmap.iowamesh.net/?lat=42.059512297864146&lng=266.6024780273438&zoom=10")
+driver.get("https://meshmap.ciscomesh.com/?lat=36.10078002981251&lng=244.84225273132327&zoom=15#")
 
 # Create the screenshots directory if it doesn't exist
 screenshots_dir = "screenshots"
